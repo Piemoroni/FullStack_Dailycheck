@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="tarefas.html">Tarefas</a>
+        <button onclick="abrirModal()">Nova Tarefa</button>
+
+    </header>
+
+  
+
+    <div id="tarefas-container" class="container"></div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>Nova Tarefa</h2>
+            <input id="nome" placeholder="Nome da tarefa">
+            <input id="inicio" type="date">
+            <input id="fim" type="date">
+            <textarea id="descricao" placeholder="Descrição"></textarea>
+            <button onclick="salvarTarefa()">Salvar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

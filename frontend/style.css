@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #ffe4ec;
+}
+
+header {
+    width: 100%;
+    background: #ff4d88;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header button {
+    background: white;
+    color: #ff4d88;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#novaTarefa{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    color: #ff4d88;
+}
+
+.container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #ff4d88;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+}
+
+.btn-excluir {
+    margin-top: 10px;
+    background: white;
+    color: #ff4d88;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.clima-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.input-cidade {
+    width: 300px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn-icon {
+    border: none;
+    background: white;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn-icon img {
+    width: 20px;
+}
+
+.cidade { 
+    font-size: 18px; 
+
+}
+
+.temp { 
+    font-size: 22px; 
+    margin-top: 10px; 
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.texto-previsao { 
+    margin-left: 10px; 
+
+}
+
+.umidade { 
+    margin-top: 10px; 
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    background: #ffe4ec;
+    color:#ff4d88;
+    padding: 25px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-content input,
+.modal-content textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.modal-content button {
+    margin-top: 10px;
+    background: #ff4d88;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}

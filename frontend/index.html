@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <a href="index.html">Home</a>
+    <a href="tarefas.html">Tarefas</a>
+</header>
+
+<h1 class="titulo">Tarefas</h1>
+<div id="tarefas-container" class="container"></div>
+
+<h1 class="titulo">Clima</h1>
+<div class="clima-box">
+    <input class="input-cidade" placeholder="Digite a cidade">
+
+    <button class="btn-icon" onclick="cliqueiNoBotao()">
+        <img src="https://www.svgrepo.com/show/520926/search-5.svg">
+    </button>
+
+    <button class="btn-icon" onclick="apagarCards()">
+        <img src="https://www.svgrepo.com/show/523072/trash-bin-2.svg">
+    </button>
+</div>
+
+<div id="clima-container" class="container"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

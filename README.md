@@ -85,5 +85,3 @@ http://localhost:3000
 | :------------------------: | 
 |      Modal Cadastro Nova Atividade    |  
 
-```
-```

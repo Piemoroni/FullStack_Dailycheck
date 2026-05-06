@@ -81,7 +81,7 @@ http://localhost:3000
 | :------------------------: | :------------------------: |
 |   Home (Tarefas - Clima)   |      Cards de Clima     |
 
-| ![img](fotos/foto3.png) | 
-| :------------------------: | 
-|      Modal Cadastro Nova Atividade    |  
+| ![img](fotos/foto3.png) | ![img](fotos/foto4.png)  |
+| :------------------------: | :------------------------: |
+|      Modal Cadastro Nova Atividade    |  Página Cadastro de Atividades  |
 
